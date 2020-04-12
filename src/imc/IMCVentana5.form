@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="506" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="1" pref="657" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="99" red="0" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Monospaced" size="12" style="1"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Antes de comenzar la rutina de ejercicios es necesario correr&#xa;o montar en bici durante 10 minutos.&#xa;Tras esto puedes seguir la siguiente tabla de ejercicios.&#xa;Para realizarlos correctamente lo m&#xe1;s sencillo es mirar v&#xed;deos&#xa;en Internet.&#xa;En Youtube se pueden encontrar cientos de v&#xed;deos explicativos para&#xa;cada uno de los ejercicios.&#xa;Estos son los m&#xe1;s b&#xe1;sicos, pero con el tiempo puedes ir incorporando&#xa;muchos otros. Entre ejercicio y ejercicio no&#xa;debes descansar m&#xe1;s de dos minutos.&#xa;&#xa;- Sentadillas (3 series / 10 repeticiones)&#xa;Ponte de pie con los pies en l&#xed;nea recta respecto a tus hombros,&#xa;empieza a bajar tu cadera como si fueras a sentarte en una silla.&#xa;Al doblar las rodillas los muslos deben llegar a estar paralelos al&#xa;suelo. Con el tiempo podr&#xe1;s hacer el ejercicio sujetando un peso con&#xa;los brazos delante del pecho.&#xa;&#xa;- Flexiones (3 series / 12 repeticiones)&#xa;Apoya las manos separadas del ancho de los hombros y alineadas&#xa;con estos. Ahora baja y sube el pecho manteniendo las piernas&#xa;estiradas. Pese a ser un ejercicio que todos hemos practicado&#xa;en el colegio es m&#xe1;s duro de lo que parece.&#xa;Si est&#xe1;s empezando con el entrenamiento puedes &#x201c;hacer trampa&#x201d; &#xa;apoyando las rodillas, pero procura hacer las flexiones&#xa;completas en cuanto empieces a mejorar.&#xa;&#xa;- Zancadas (2 series / 14 repeticiones)&#xa;Las zancadas son uno de los ejercicios m&#xe1;s completos y&#xa;est&#xe1;n presentes en todas las rutinas de entrenamiento.&#xa;Mant&#xe9;n una posici&#xf3;n de semi-cuclillas con tus manos en la&#xa;cadera, y adelanta alternativamente una y otra pierna. &#xa;La pierna adelantada nunca debe superar el &#xe1;ngulo de 90 grados y el &#xa;tal&#xf3;n de la pierna desplazada no debe despegarse del suelo. Con el&#xa;tiempo puedes hacer este ejercicio sujetando una mancuerna en cada&#xa;mano.&#xa;"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="2" title="&#xbf;C&#xf3;mo Debo entrenar?">
+                  <Font PropertyName="font" name="Tahoma" size="14" style="1"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
